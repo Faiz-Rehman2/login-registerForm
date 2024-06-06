@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In / Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- <nav>
+        <div class="smit-logo">
+            <img src="./images/smit.png" alt="">
+
+        </div>
+    </nav> -->
+    <div class="container">
+        <div id="signUpForm" class="form-container">
+            <h2>Sign Up</h2>
+            <input type="text" id="signUpFullName" placeholder="Full Name" required>
+            <input type="email" id="signUpEmail" placeholder="Email Address" required>
+            <input type="password" id="signUpPassword" placeholder="Password" required><br>
+            <button onclick="signUp()">Sign Up</button>
+            <p>Already have an account? <a href="#" onclick="changeForms()">Sign In</a></p>
+        </div>
+        <div id="signInForm" class="form-container" style="display: none;">
+            <h2>Sign In</h2>
+            <input type="email" id="signInEmail" placeholder="Email Address" required>
+            <input type="password" id="signInPassword" placeholder="Password" required><br>
+            <button onclick="signIn()">Sign In</button>
+            <p>Don't have an account? <a href="#" onclick="changeForms()">Sign Up</a></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
